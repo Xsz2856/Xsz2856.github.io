@@ -1,24 +1,32 @@
 /* Here is your custom css styles. */
 .tips {
+    padding-top: 15px;
     padding-left: 10px;
+    padding-bottom: 5px;
     background-color: rgba(52,152,219,.3);
     border-left: 4px solid rgb(52,152,219);
     color: darken(rgb(52,152,219),20%);
 }
 .success {
+    padding-top: 15px;
     padding-left: 10px;
+    padding-bottom: 5px;
     background-color: rgba(46,204,113,.3);
     border-left: 4px solid rgb(46,204,113);
     color: darken(rgb(46,204,113),20%);
 }
 .warning {
+    padding-top: 15px;
     padding-left: 10px;
+    padding-bottom: 5px;
     background-color: rgba(241,196,15,.3);
     border-left: 4px solid rgb(241,196,15);
     color: darken(rgb(241,196,15),20%);
 }
 .danger {
+    padding-top: 15px;
     padding-left: 10px;
+    padding-bottom: 5px;
     background-color: rgba(231,76,60,.3);
     border-left: 4px solid rgb(231,76,60);
     color: darken(rgb(231,76,60),20%);
@@ -31,3 +39,39 @@
     border-left: 4px solid rgb(13, 187, 230);
     color: darken(rgb(66, 185, 131),20%);
 }
+kbdRed {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    border-style: outset;
+    border: 1px solid #aaa;
+    background: #fafafa;
+    padding: 0px 3px 1px 3px;
+    margin: 0px 0px 0px 0px;
+    vertical-align: baseline;
+    line-height: 1.8em;
+    white-space: nowrap;
+    color: #f00;
+}
+kbdBlue {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    border-style: outset;
+    border: 1px solid #aaa;
+    background: #fafafa;
+    padding: 0px 3px 1px 3px;
+    margin: 0px 0px 0px 0px;
+    vertical-align: baseline;
+    line-height: 1.8em;
+    white-space: nowrap;
+    color: rgb(13, 113, 243);
+}
+fontRed{
+    color: #f00;
+}
+
